@@ -1,0 +1,35 @@
+# OSX files
+.DS_Store
+
+# Xcode build and derived data
+build/
+DerivedData/
+
+# Android/IntelliJ
+.idea/
+.gradle/
+.vscode/
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+
+# node.js dependencies and logs
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods
+ios/Pods/
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# Environment files
+.env
+.env.staging
+.env.production
